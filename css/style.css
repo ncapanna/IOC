@@ -1,0 +1,147 @@
+
+/*CSS reset*/
+* {
+  padding:0 ;
+  margin:0;
+  box-sizing:border-box;
+}
+/*style sheet*/
+
+body {
+  line-height: 1.5;
+  font-family:fantasy;
+}
+
+header a {
+  display: inline-block;
+  padding: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: red;
+  text-decoration: underline;
+  background-color: white;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  line-height:50px;
+}
+
+h2 {
+  font-size: 30px;
+  color: red;
+  line-height:40px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 25px;
+  color: blue;
+  line-height:30px;
+}
+
+h4 {
+  font-size: 20px;
+  color: green;
+  line-height:25px;
+}
+
+h5 {
+  font-size: 20px;
+  color: black;
+  line-height:25px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 25px;
+  color: white;
+  line-height:30px;
+}
+
+.center{
+  text-align: center;
+}
+
+.first {background-image:
+  url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2uZ3aSE4DgeJAmYm0JEFR64i6VYoJpibePzp8Y5xeTFNVeAG7_w);
+  background-size: contain;
+min-height: 50vh;
+padding: 2.5%;
+}
+
+.first i{
+  font-size: 5rem;
+  color: red;
+}
+
+nav {background-color: rgba(248, 0, 0, .5);
+  width: 50%;
+  margin: 15px auto;
+}
+
+#about {
+  background-color: #d3d1d1;
+  padding: 20px;
+  min-height: 40vh;
+  text-align: center;
+}
+
+.about {
+  background-color: white;
+  padding: 20px;
+  max-width: 700px;
+  margin: 2% auto;
+  min-height: 30vh;
+}
+
+#skills {
+  padding: 40px;
+  text-align: center;
+}
+
+.skills {
+  padding: 20px;
+}
+
+.skills i{
+  font-size: 5rem;
+  color: dimgrey;
+}
+
+.map {
+  padding: 50px;
+  background-color: #d3d1d1;
+}
+
+#experience {
+  padding: 30px;
+  margin: 2% 10%;
+}
+
+#experience h2, #experience h4, {
+  text-transform: uppercase;
+}
+
+#experience i{
+  font-size: 1.5rem;
+  color: darkgreen;
+}
+
+#contact {
+  background-color: #333333;
+  text-align: center;
+  padding: 5%;
+}
+
+footer a{
+  color:white;
+}
+
+footer a:hover{
+  color:red;
+}
